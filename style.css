@@ -108,3 +108,19 @@ body {
   transition: filter 0.5s ease;
   filter: grayscale(100%);
 }
+
+.lang-btns{
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+
+}
+.lang-btns button{
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 0);
+  border: rgba(255, 0, 0, 0);
+}
+.lang-btns img{
+  height: 5vh;
+}
